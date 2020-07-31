@@ -12,15 +12,4 @@ class TodoForm(ModelForm):
         model = Todo
         fields = '__all__'
 
-    # fields = [
-    #   'first_name' ,
-    #   'last_name'
-
-
-#
-# ]
-
-class RawCustomerForm(forms.Form):
-    todo      = forms.CharField(label='', widget=forms.TextInput(attrs={"placeholder": "your first name"}))
-    last_date = forms.CharField(label='', widget=forms.TextInput(attrs={"placeholder": "your last name"}))
 
